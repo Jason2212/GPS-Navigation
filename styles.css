@@ -12,7 +12,7 @@ body {
 }
 #header h1 a {
 	border-bottom: 1px solid #ccc;
-	color: #ddd;
+	color: white;
 	display: block;
 	font-size: 20px;
 	font-weight: bold;
@@ -27,7 +27,7 @@ body {
 }
 #header ul li a {
 	border: 1px solid #999999;
-	color: #222222;
+	color: #505050;
 	display: block;
 	font-size: 17px;
 	font-weight: bold;
