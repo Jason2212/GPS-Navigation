@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+          version   = "3.3.0">
+
+   <name>sdfsdfsdfsdfsdfsdfsdf</name>
+   <description>sdfsdfsdfsdfsdfsdfsdf</description>
+   <icon src="icon.png" gap:role="default" />
+
+ 
+
+   <feature name="http://api.phonegap.com/1.0/network"/>
+   <feature name="http://api.phonegap.com/1.0/geolocation"/>
+
+   <preference name="phonegap-version" value="3.3.0" />
+   <preference name="target-device" value="universal" />
+
+   <!-- Splash Screens -->
+   <gap:splash src="splash.png" />
+   <gap:splash src="images/splash-160x220.png" gap:platform="android" gap:density="ldpi" />
+   <gap:splash src="images/splash-220x330.png" gap:platform="android" gap:density="mdpi" />
+   <gap:splash src="images/splash-450x650.png" gap:platform="android" gap:density="hdpi" />
+</widget>
