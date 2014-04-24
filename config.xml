@@ -3,8 +3,8 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
           version   = "3.3.0">
 
-   <name>sdfsdfsdfsdfsdfsdfsdf</name>
-   <description>sdfsdfsdfsdfsdfsdfsdf</description>
+   <name>Navigation</name>
+   <description>GPS</description>
    <icon src="icon.png" gap:role="default" />
 
    <feature name="http://api.phonegap.com/1.0/network"/>
