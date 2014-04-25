@@ -5,10 +5,12 @@ body {
 	font-size: 14px;
 	margin: 0; 
 	padding: 0; 
+	color: white;
 }
 #header h1 {
 	margin: 0;
 	padding: 0;
+	z-index: 10;
 }
 #header h1 a {
 	border-bottom: 1px solid #ccc;
@@ -37,6 +39,28 @@ body {
 }
 #header h1 a {
 	text-shadow: 0px 1px 0px #999;
-	background: #ccc;
+	background: #505050;
 	background: linear-gradient(#505050, #000);
+}
+#sidebar{
+	background: black;
+	text-shadow: 0px 1px 0px #999;
+	opacity: 0.8; 
+	top: 45px;
+	bottom: 0;
+	position: absolute;
+	z-index: 20;
+}
+.aspectwrapper {
+  display: inline-block; /* shrink to fit */
+  width: 40%;           /* whatever width you like */
+  position: relative;    /* so .content can use position: absolute */
+}
+
+#overflow{
+overflow:hidden;
+text-overflow:clip;
+}
+#map{
+z-index: 10;
 }
