@@ -1,11 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <widget xmlns     = "http://www.w3.org/ns/widgets"
+
         xmlns:gap = "http://phonegap.com/ns/1.0"
+
           version   = "3.3.0">
 
-   <name>Navigation</name>
+ 
+
+   <name>Geolocation</name>
+
+ 
+
    <description>GPS</description>
-   <gap:plugin name="org.apache.cordova.device-motion" version="0.2.6" />
-   <gap:plugin name="org.apache.cordova.device-orientation" version="0.3.5" />
-   <gap:plugin name="org.apache.cordova.geolocation" version="0.3.6" />
+
+ 
+
+   <icon src="icon.png" gap:role="default" />
+
+ 
+
+   <feature name="http://api.geolocation.com/1.0/network"/>
+
+   <feature name="http://api.geolocation.com/1.0/geolocation"/>
+
+ 
+
+   <preference name="phonegap-version" value="3.3.0" />
+
+   <preference name="target-device" value="universal" />
+
+ 
+
+   <!-- Splash Screens -->
+
+   <gap:splash src="splash.png" />
+
+   <gap:splash src="images/splash-160x220.png" gap:platform="android" gap:density="ldpi" />
+
+   <gap:splash src="images/splash-220x330.png" gap:platform="android" gap:density="mdpi" />
+
+   <gap:splash src="images/splash-450x650.png" gap:platform="android" gap:density="hdpi" />
+
 </widget>
