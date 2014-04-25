@@ -19,3 +19,16 @@
    <gap:splash src="images/splash-220x330.png" gap:platform="android" gap:density="mdpi" />
    <gap:splash src="images/splash-450x650.png" gap:platform="android" gap:density="hdpi" />
 </widget>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle" >
+
+    <gradient
+        android:angle="90"
+        android:centerColor="#555994"
+        android:endColor="#b5b6d2"
+        android:startColor="#555994"
+        android:type="linear" />
+
+    <corners 
+        android:radius="0dp"/>
+
+</shape>

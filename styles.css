@@ -53,8 +53,8 @@ body {
 }
 .aspectwrapper {
   display: inline-block; /* shrink to fit */
-  width: 40%;           /* whatever width you like */
-  position: relative;    /* so .content can use position: absolute */
+  width: 40%;           
+  position: relative;    
 }
 
 #overflow{
